@@ -1,0 +1,13 @@
+{
+  "header":{
+    "blocks":["header-layout.desktop"]
+  },
+  "header.full":{
+    "blocks":["header-layout.desktop"]
+  },
+  "header-layout.desktop":{
+    "children": [
+      "flex-layout.row#navbar"
+    ]
+  }
+}

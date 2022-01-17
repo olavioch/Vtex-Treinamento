@@ -1,0 +1,26 @@
+{   //construcao de blocos customizaveis
+    "stack-layout#cta" :{
+        "children": ["image#cta", "link#cta"]
+    },
+    //bloco com imagen de fundo
+    "image#cta":{
+        "props":{
+            "blockClass": "cover",
+            "width": "100%",
+            "height": 400,
+            "src": "https://img.vixdata.io/pd/jpg-large/pt/sites/default/files/e/estante-home-03-20-1400-800.jpg"
+        }
+    },
+    //bloco de botao vtex
+    "link#cta":{
+        "props":{
+            "displayMode": "button",
+            "buttonProps": {
+                "variant": "primary",
+                "size": "large"
+            },
+            "href":"/washer",
+            "label": "Check these awesome discounts"
+        }
+    }
+}

@@ -1,0 +1,31 @@
+{
+  "store.home": { 
+    "children": ["responsive-layout.desktop#desktop", "responsive-layout.mobile#mobile"]
+  },
+  "responsive-layout.desktop#desktop":{
+    "props":{
+      "blockClass": "home"
+  },
+    "children": [ 
+      "info-card#button-left", 
+      "info-card#button-right", 
+      "rich-text#titleProducts", 
+      "flex-layout.row#threeItens", 
+      "slider-layout#home",
+      "tab-layout#home",
+      "modal-trigger#first",
+      "list-context.product-list",
+      "stack-layout#cta"
+    ]
+  },
+  "responsive-layout.mobile#mobile":{
+    "children": [ 
+      "info-card#button-left", 
+      "info-card#button-right", 
+      "rich-text#titleProductsMobile", 
+      "flex-layout.row#threeItensMobile", 
+      "slider-layout#home"
+    ]
+  }
+
+}

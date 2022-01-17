@@ -1,0 +1,5 @@
+{
+  "store.product":{
+    "blocks":[ "condition-layout.product", "breadcrumb","rich-text#introTitleProducts", "flex-layout.row#pageProducts"]
+  }
+}

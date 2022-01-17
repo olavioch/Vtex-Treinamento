@@ -1,0 +1,35 @@
+{
+  "breadcrumb":{
+    "props":{
+      "blockClass":"menuCategories"
+    }
+  },
+  "rich-text#introTitleProducts":{
+      "props":{
+        "blockClass": "titleProducts",
+        "text": "Parte 1 Products Intro",
+        "font": "t-heading-3",
+        "textPosition": "CENTER"
+      }
+    },
+    "flex-layout.row#pageProducts":{
+      "props":{
+      "blockClass":"introProducts"
+    },
+      "children":[
+        "flex-layout.col#leftProducts",
+        "flex-layout.col#rightProducts"
+      ]
+    },
+    "flex-layout.col#leftProducts":{
+      "children":["product-images"]
+    },
+    "flex-layout.col#rightProducts":{
+      "children":["product-name", "product-identifier.product", "product-price", "flex-layout.row#qty-sku", "shipping-simulator", "buy-button"]
+    },
+    "flex-layout.row#qty-sku": {
+      "children": [
+        "product-quantity"
+      ]
+    }
+}

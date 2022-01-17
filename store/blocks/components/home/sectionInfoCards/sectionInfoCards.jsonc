@@ -1,0 +1,30 @@
+{
+//section da area de infocards
+  "info-card#button-left":{
+    "props":{
+      "blockClass": "buttonLeft",
+       "isFullModeStyle": false,
+       "textPosition": "left",
+       "imageUrl": "https://appliancetheme.vteximg.com.br/arquivos/cozinha-cinza-min.png",
+       "headline": "Titulo 1",
+       "subhead": "Aqui pode ser escrito uma descrição relacionado ao card",
+       "callToActionMode" : "button",
+       "callToActionText" : "Compre",
+       "callToActionUrl" : "/sale/d",
+       "textAlignment" : "center"
+    }
+  },
+  "info-card#button-right":{
+    "props" :{
+      "isFullModeStyle": false,
+      "textPosition": "right",
+      "imageUrl": "https://img.vixdata.io/pd/jpg-large/pt/sites/default/files/e/estante-home-03-20-1400-800.jpg",
+      "headline":"Titulo 2",
+      "subhead": "Aqui pode ser escrito outra descrição relacionado ao card",
+      "callToActionMode": "link",
+      "callToActionText": "COMPRE",
+      "callToActionUrl": "/sale/d",
+      "textAlignment": "center"
+    }
+  }
+}

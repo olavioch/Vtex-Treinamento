@@ -1,0 +1,12 @@
+{
+    "store.custom#about-us":{
+        "blocks": ["rich-text#about-us"]
+    },
+    "rich-text#about-us":{
+        "props":{
+            "blockClass":"aboutUsText",
+            "text": "# Seja bem vindo a pagina about us!!! \n ## Explorando o poder do rich text \n Exemplo de lista em markdown \n item1 \n item2 \n item3 \n item4\n"
+
+        }
+    }
+}

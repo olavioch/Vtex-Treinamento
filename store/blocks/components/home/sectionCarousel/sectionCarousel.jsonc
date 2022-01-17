@@ -1,0 +1,42 @@
+{
+    // aulas sobre section de slides
+  "slider-layout#home":{
+    "props":{
+      "blockClass": "slideShow",
+      "itemsPerPage":{"desktop": 1},
+      "autoplay":{
+        "timeout": 3000,
+        "stopOnHover": true
+      }
+    },
+    "children":["image#1", "image#2", "image#3", "image#4"]
+  },
+  "image#1": {
+    "props": {
+      "blockClass":"slideImage",
+      "src": "https://appliancetheme.vteximg.com.br/assets/vtex.file-manager-graphql/images/electronics_banner___25d69b49f8224b369375e68513b4d593.png",
+      "maxWidth": "100%"
+    }
+  },
+  "image#2": {
+    "props": {
+      "blockClass": "slideImage",
+      "src": "https://appliancetheme.vteximg.com.br/assets/vtex.file-manager-graphql/images/major_appliance_banner___bb10093866a127345ddfbcca3efa5022.png",
+      "maxWidth": "100%"
+    }
+  },
+  "image#3": {
+    "props": {
+      "blockClass":"slideImage",
+      "src": "https://appliancetheme.vteximg.com.br/assets/vtex.file-manager-graphql/images/electronics_banner___25d69b49f8224b369375e68513b4d593.png",
+      "maxWidth": "100%"
+    }
+  },
+  "image#4": {
+    "props": {
+      "blockClass": "slideImage",
+      "src": "https://appliancetheme.vteximg.com.br/assets/vtex.file-manager-graphql/images/major_appliance_banner___bb10093866a127345ddfbcca3efa5022.png",
+      "maxWidth": "100%"
+    }
+  }
+}

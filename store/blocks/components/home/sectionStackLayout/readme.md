@@ -1,0 +1,1 @@
+"stack-layout": cada componente filho vai receber um zindex diferente dependendo a ordem dentro do array.

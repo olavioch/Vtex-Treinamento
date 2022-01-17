@@ -1,0 +1,32 @@
+{
+    //componente de lista de produtos para ser exibido em slide
+    "list-context.product-list":{
+        "blocks": ["product-summary.shelf"],
+        "children":["slider-layout"]
+    },
+    //o slide de produtos que recebe o modal
+    "product-summary.shelf":{
+        "children":[
+            "modal-trigger#quickView",
+            "product-summary-name",
+            "product-selling-price"
+        ]
+    },
+    //modal trigger e definido onde apos clicar aparecera o modal de um produto especifico
+    "modal-trigger#quickView":{
+        "children":["product-summary-image", "modal-layout#quickview"]
+    },
+    "modal-layout#quickview":{
+        "children":[
+            "product-summary-name",
+            "product-images",
+            "product-summary-quantity",
+            "add-to-cart-button"
+        ]
+    },
+    "slider-layout":{
+        "props":{
+            "blockClass": "slideProduct"
+        }
+    }
+}
